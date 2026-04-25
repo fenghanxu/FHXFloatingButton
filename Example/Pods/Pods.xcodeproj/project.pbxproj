@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008A6FCC83668AC1FFD3A2E5536726DA /* FHXFloatingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B162A001F8AAF493BD21A07963E92B /* FHXFloatingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02398B63AB42B68170E2A5DC939515BC /* Pods-FHXFloatingButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A373CDFCBEFB1FE1AF0D66DD6DE0FB /* Pods-FHXFloatingButton_Tests-dummy.m */; };
+		0F6E36D73450F4DF3C217B84EBF28AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		1CB636A48552C87789501BBDA89B2549 /* Pods-FHXFloatingButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5171335D57B69E3E9D6AA5FD69FB6162 /* Pods-FHXFloatingButton_Example-dummy.m */; };
+		22B2426016D0A6F73B6D9B36265C5176 /* Pods-FHXFloatingButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3D98D036BC83CC78724E108913A59A /* Pods-FHXFloatingButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BFF52B4A949BFB773935E82708063D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		388364C0EB17ABD4CFBCAD95192AC0A8 /* FHXFloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BF47FFE8EFB6A9AB8254675D946D0 /* FHXFloatingButton.m */; };
+		4D220F9558BBE0F14F480AAEF136B163 /* FHXFloatingButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DADE18C82FAADFB7A4AA781F614D342C /* FHXFloatingButton-dummy.m */; };
+		55A12AA197296C2AFB1008176C6E47E4 /* FHXFloatingButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D06B3452708DE4C24E9E43F4F1CE2C2B /* FHXFloatingButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754E512984F34607846E5523357BEB23 /* Pods-FHXFloatingButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B710A41A4929AF46ADE5047FA1289C44 /* Pods-FHXFloatingButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A20754E0E48C99C8442F661051B0E193 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F1B47D2312647978964B15FB54EA8C /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B6A7877D72D8BB61E328F70C348A89 /* FHXFloatingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A493D8D6684B2AEE9FA2FE7E0E790181 /* FHXFloatingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96A4297C901B068C0E68C119939FB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		EA420780140AC1458B1C7A4B18C373A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		F7E837023AC9D9D911F69F90B7A1B963 /* FHXFloatingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819A90A875044198CDF1DD77816C028 /* FHXFloatingManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B5F8E8840EB8F8A6898015524BCDA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 356A8ADB6913C5D1D0B1EA429D9AC684;
+			remoteInfo = FHXFloatingButton;
+		};
+		84767FE5A85E0E045BB78E339FDA8F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5904A1C89D0C9CF787DA4D98BA27D434;
+			remoteInfo = "Pods-FHXFloatingButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F1B47D2312647978964B15FB54EA8C /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Header.h; path = MoveLoginBtn/Header.h; sourceTree = "<group>"; };
+		05FA4CABE7E5934AF834CD60AB2BBFE5 /* Pods-FHXFloatingButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0769327140340970EEBCA381D1CCBA95 /* Pods-FHXFloatingButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FHXFloatingButton_Tests"; path = Pods_FHXFloatingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B2EFA15275F51007A453D0442B902B /* Pods-FHXFloatingButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Example-Info.plist"; sourceTree = "<group>"; };
+		1B4712EE0147372A3C0E08D51E04B3EB /* FHXFloatingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FHXFloatingButton.modulemap; sourceTree = "<group>"; };
+		1EBC9C3EA7E774514F6DFDB2595A6161 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2391260D3D28A2C95C873B65F58E145A /* FHXFloatingButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FHXFloatingButton-Info.plist"; sourceTree = "<group>"; };
+		2D042C35885316A66805CD577C531F78 /* Pods-FHXFloatingButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FHXFloatingButton_Example"; path = Pods_FHXFloatingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D605C133F5414131D5E03419C997683 /* Pods-FHXFloatingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXFloatingButton_Example.modulemap"; sourceTree = "<group>"; };
+		2E7457FF36CD56A3991BA6138363284E /* Pods-FHXFloatingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXFloatingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		309FB87C9AA2FC70A17138B849740AEA /* Pods-FHXFloatingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXFloatingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A05B901F49337B5435A30F4876228AA /* Pods-FHXFloatingButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		4B3D98D036BC83CC78724E108913A59A /* Pods-FHXFloatingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXFloatingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E3BF47FFE8EFB6A9AB8254675D946D0 /* FHXFloatingButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHXFloatingButton.m; path = MoveLoginBtn/FHXFloatingButton.m; sourceTree = "<group>"; };
+		50F4526DF0323EEC8B56B6F93DCCB6D8 /* FHXFloatingButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FHXFloatingButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		515E9E831AA949B9DCB5E8E40D31AAB3 /* Pods-FHXFloatingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXFloatingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5171335D57B69E3E9D6AA5FD69FB6162 /* Pods-FHXFloatingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXFloatingButton_Example-dummy.m"; sourceTree = "<group>"; };
+		61A6E9FCFADE840BEE8EFF6B3EB458AB /* Pods-FHXFloatingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8819A90A875044198CDF1DD77816C028 /* FHXFloatingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHXFloatingManager.m; path = MoveLoginBtn/FHXFloatingManager.m; sourceTree = "<group>"; };
+		94DC314F96D9D7827F00081461C189E0 /* Pods-FHXFloatingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXFloatingButton_Tests.modulemap"; sourceTree = "<group>"; };
+		9B15FE6A7A6EEF7AACBFF6A2E4D31082 /* Pods-FHXFloatingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXFloatingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA15D2AD3C3E1638B93BD324BF2E15E /* Pods-FHXFloatingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXFloatingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3B162A001F8AAF493BD21A07963E92B /* FHXFloatingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXFloatingButton.h; path = MoveLoginBtn/FHXFloatingButton.h; sourceTree = "<group>"; };
+		A493D8D6684B2AEE9FA2FE7E0E790181 /* FHXFloatingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXFloatingManager.h; path = MoveLoginBtn/FHXFloatingManager.h; sourceTree = "<group>"; };
+		B1652A07E819D8C6FFCA7F77A729231D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B710A41A4929AF46ADE5047FA1289C44 /* Pods-FHXFloatingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXFloatingButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXFloatingButton; path = FHXFloatingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A373CDFCBEFB1FE1AF0D66DD6DE0FB /* Pods-FHXFloatingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXFloatingButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		CCFAAE386FA79B232593DB4ECEA3C8FB /* FHXFloatingButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXFloatingButton.release.xcconfig; sourceTree = "<group>"; };
+		D06B3452708DE4C24E9E43F4F1CE2C2B /* FHXFloatingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXFloatingButton-umbrella.h"; sourceTree = "<group>"; };
+		D3497267B19C29A4D47488C026521B5C /* Pods-FHXFloatingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXFloatingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D931DB30AE3579A6B35EFC05438C764F /* Pods-FHXFloatingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXFloatingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DADE18C82FAADFB7A4AA781F614D342C /* FHXFloatingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXFloatingButton-dummy.m"; sourceTree = "<group>"; };
+		E8ECAD77BCCACFF64C79C090418CBA8E /* FHXFloatingButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXFloatingButton.debug.xcconfig; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FD766AC2DE9A9D4BFD9F3A2692AD2CA1 /* FHXFloatingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXFloatingButton-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		922E054C14C9363B83A241246B8BD48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA420780140AC1458B1C7A4B18C373A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCED83EBB2EF050F3DD2540BFDE8971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96A4297C901B068C0E68C119939FB6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78116A267F5EF8DA3CDDD622C0E36C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6E36D73450F4DF3C217B84EBF28AAB /* Foundation.framework in Frameworks */,
+				2BFF52B4A949BFB773935E82708063D7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183B6B93C663ABB67D8C1364906BAF68 /* FHXFloatingButton */ = {
+			isa = PBXGroup;
+			children = (
+				A3B162A001F8AAF493BD21A07963E92B /* FHXFloatingButton.h */,
+				4E3BF47FFE8EFB6A9AB8254675D946D0 /* FHXFloatingButton.m */,
+				A493D8D6684B2AEE9FA2FE7E0E790181 /* FHXFloatingManager.h */,
+				8819A90A875044198CDF1DD77816C028 /* FHXFloatingManager.m */,
+				01F1B47D2312647978964B15FB54EA8C /* Header.h */,
+				45C8F4085EFFBABC6A7232FBA9231EB8 /* Pod */,
+				227EE38B1EBFA018AF3D41856533FCA9 /* Support Files */,
+			);
+			name = FHXFloatingButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1DC5A058A828F6D715BFC6C6638DFD1E /* Pods-FHXFloatingButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D605C133F5414131D5E03419C997683 /* Pods-FHXFloatingButton_Example.modulemap */,
+				9DA15D2AD3C3E1638B93BD324BF2E15E /* Pods-FHXFloatingButton_Example-acknowledgements.markdown */,
+				61A6E9FCFADE840BEE8EFF6B3EB458AB /* Pods-FHXFloatingButton_Example-acknowledgements.plist */,
+				5171335D57B69E3E9D6AA5FD69FB6162 /* Pods-FHXFloatingButton_Example-dummy.m */,
+				309FB87C9AA2FC70A17138B849740AEA /* Pods-FHXFloatingButton_Example-frameworks.sh */,
+				14B2EFA15275F51007A453D0442B902B /* Pods-FHXFloatingButton_Example-Info.plist */,
+				B710A41A4929AF46ADE5047FA1289C44 /* Pods-FHXFloatingButton_Example-umbrella.h */,
+				2E7457FF36CD56A3991BA6138363284E /* Pods-FHXFloatingButton_Example.debug.xcconfig */,
+				D931DB30AE3579A6B35EFC05438C764F /* Pods-FHXFloatingButton_Example.release.xcconfig */,
+			);
+			name = "Pods-FHXFloatingButton_Example";
+			path = "Target Support Files/Pods-FHXFloatingButton_Example";
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		227EE38B1EBFA018AF3D41856533FCA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B4712EE0147372A3C0E08D51E04B3EB /* FHXFloatingButton.modulemap */,
+				DADE18C82FAADFB7A4AA781F614D342C /* FHXFloatingButton-dummy.m */,
+				2391260D3D28A2C95C873B65F58E145A /* FHXFloatingButton-Info.plist */,
+				FD766AC2DE9A9D4BFD9F3A2692AD2CA1 /* FHXFloatingButton-prefix.pch */,
+				D06B3452708DE4C24E9E43F4F1CE2C2B /* FHXFloatingButton-umbrella.h */,
+				E8ECAD77BCCACFF64C79C090418CBA8E /* FHXFloatingButton.debug.xcconfig */,
+				CCFAAE386FA79B232593DB4ECEA3C8FB /* FHXFloatingButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FHXFloatingButton";
+			sourceTree = "<group>";
+		};
+		45C8F4085EFFBABC6A7232FBA9231EB8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				50F4526DF0323EEC8B56B6F93DCCB6D8 /* FHXFloatingButton.podspec */,
+				1EBC9C3EA7E774514F6DFDB2595A6161 /* LICENSE */,
+				B1652A07E819D8C6FFCA7F77A729231D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		772575558C3FDD29542E4E71BA8503FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DC5A058A828F6D715BFC6C6638DFD1E /* Pods-FHXFloatingButton_Example */,
+				AAA1F20615710BC81AC35BDBF5F3B536 /* Pods-FHXFloatingButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78B9925CC38451DF9B43770659BBB23D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton */,
+				2D042C35885316A66805CD577C531F78 /* Pods-FHXFloatingButton_Example */,
+				0769327140340970EEBCA381D1CCBA95 /* Pods-FHXFloatingButton_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA1F20615710BC81AC35BDBF5F3B536 /* Pods-FHXFloatingButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94DC314F96D9D7827F00081461C189E0 /* Pods-FHXFloatingButton_Tests.modulemap */,
+				515E9E831AA949B9DCB5E8E40D31AAB3 /* Pods-FHXFloatingButton_Tests-acknowledgements.markdown */,
+				05FA4CABE7E5934AF834CD60AB2BBFE5 /* Pods-FHXFloatingButton_Tests-acknowledgements.plist */,
+				B9A373CDFCBEFB1FE1AF0D66DD6DE0FB /* Pods-FHXFloatingButton_Tests-dummy.m */,
+				4A05B901F49337B5435A30F4876228AA /* Pods-FHXFloatingButton_Tests-Info.plist */,
+				4B3D98D036BC83CC78724E108913A59A /* Pods-FHXFloatingButton_Tests-umbrella.h */,
+				D3497267B19C29A4D47488C026521B5C /* Pods-FHXFloatingButton_Tests.debug.xcconfig */,
+				9B15FE6A7A6EEF7AACBFF6A2E4D31082 /* Pods-FHXFloatingButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-FHXFloatingButton_Tests";
+			path = "Target Support Files/Pods-FHXFloatingButton_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E237709BF7AB384CB2A3EABD982A55DF /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				78B9925CC38451DF9B43770659BBB23D /* Products */,
+				772575558C3FDD29542E4E71BA8503FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E237709BF7AB384CB2A3EABD982A55DF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				183B6B93C663ABB67D8C1364906BAF68 /* FHXFloatingButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12D322A8B12C23758043230395163F82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B2426016D0A6F73B6D9B36265C5176 /* Pods-FHXFloatingButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4353337AFE1ABCD47632BCD6F55E03A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754E512984F34607846E5523357BEB23 /* Pods-FHXFloatingButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D10C7DA36EA8735C59B446ED5CC17BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A6FCC83668AC1FFD3A2E5536726DA /* FHXFloatingButton.h in Headers */,
+				55A12AA197296C2AFB1008176C6E47E4 /* FHXFloatingButton-umbrella.h in Headers */,
+				C7B6A7877D72D8BB61E328F70C348A89 /* FHXFloatingManager.h in Headers */,
+				A20754E0E48C99C8442F661051B0E193 /* Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		356A8ADB6913C5D1D0B1EA429D9AC684 /* FHXFloatingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6C93F586C3653917CDDF57D3BCFAFB /* Build configuration list for PBXNativeTarget "FHXFloatingButton" */;
+			buildPhases = (
+				9D10C7DA36EA8735C59B446ED5CC17BD /* Headers */,
+				A241AAAC7355C95FFAAEF28139FC0D22 /* Sources */,
+				D78116A267F5EF8DA3CDDD622C0E36C5 /* Frameworks */,
+				89B2F5F1F99E97BFAC2806712CE0E189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHXFloatingButton;
+			productName = FHXFloatingButton;
+			productReference = B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton */;
+			productType = "com.apple.product-type.framework";
+		};
+		5904A1C89D0C9CF787DA4D98BA27D434 /* Pods-FHXFloatingButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEC3A6ABE5B83ADAA6B90CB9B5F2516 /* Build configuration list for PBXNativeTarget "Pods-FHXFloatingButton_Example" */;
+			buildPhases = (
+				4353337AFE1ABCD47632BCD6F55E03A0 /* Headers */,
+				DCCC307645D0B57700F69E2B96701A8F /* Sources */,
+				BBCED83EBB2EF050F3DD2540BFDE8971 /* Frameworks */,
+				582EC822B00D9FE79BD5A178E0C3A15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D77FED506DD80F70230CC7FAAD8747 /* PBXTargetDependency */,
+			);
+			name = "Pods-FHXFloatingButton_Example";
+			productName = Pods_FHXFloatingButton_Example;
+			productReference = 2D042C35885316A66805CD577C531F78 /* Pods-FHXFloatingButton_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0BB198405D2AB7851213EC2200CA7C9 /* Pods-FHXFloatingButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8B0D16B3ABF56251BE977106113535 /* Build configuration list for PBXNativeTarget "Pods-FHXFloatingButton_Tests" */;
+			buildPhases = (
+				12D322A8B12C23758043230395163F82 /* Headers */,
+				D0B62A13D787DFE0A6F03FD80EFAF54A /* Sources */,
+				922E054C14C9363B83A241246B8BD48F /* Frameworks */,
+				20857AD4A8293DCCAD23956C10E813B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330FEE1E1349D1F0886880A181B75614 /* PBXTargetDependency */,
+			);
+			name = "Pods-FHXFloatingButton_Tests";
+			productName = Pods_FHXFloatingButton_Tests;
+			productReference = 0769327140340970EEBCA381D1CCBA95 /* Pods-FHXFloatingButton_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 78B9925CC38451DF9B43770659BBB23D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356A8ADB6913C5D1D0B1EA429D9AC684 /* FHXFloatingButton */,
+				5904A1C89D0C9CF787DA4D98BA27D434 /* Pods-FHXFloatingButton_Example */,
+				A0BB198405D2AB7851213EC2200CA7C9 /* Pods-FHXFloatingButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20857AD4A8293DCCAD23956C10E813B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582EC822B00D9FE79BD5A178E0C3A15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B2F5F1F99E97BFAC2806712CE0E189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A241AAAC7355C95FFAAEF28139FC0D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388364C0EB17ABD4CFBCAD95192AC0A8 /* FHXFloatingButton.m in Sources */,
+				4D220F9558BBE0F14F480AAEF136B163 /* FHXFloatingButton-dummy.m in Sources */,
+				F7E837023AC9D9D911F69F90B7A1B963 /* FHXFloatingManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B62A13D787DFE0A6F03FD80EFAF54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02398B63AB42B68170E2A5DC939515BC /* Pods-FHXFloatingButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC307645D0B57700F69E2B96701A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB636A48552C87789501BBDA89B2549 /* Pods-FHXFloatingButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330FEE1E1349D1F0886880A181B75614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FHXFloatingButton_Example";
+			target = 5904A1C89D0C9CF787DA4D98BA27D434 /* Pods-FHXFloatingButton_Example */;
+			targetProxy = 84767FE5A85E0E045BB78E339FDA8F95 /* PBXContainerItemProxy */;
+		};
+		57D77FED506DD80F70230CC7FAAD8747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FHXFloatingButton;
+			target = 356A8ADB6913C5D1D0B1EA429D9AC684 /* FHXFloatingButton */;
+			targetProxy = 5B5F8E8840EB8F8A6898015524BCDA5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		106C04BB3298EBB9177A7B5F4F2715EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFAAE386FA79B232593DB4ECEA3C8FB /* FHXFloatingButton.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FHXFloatingButton/FHXFloatingButton-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FHXFloatingButton/FHXFloatingButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXFloatingButton/FHXFloatingButton.modulemap";
+				PRODUCT_MODULE_NAME = FHXFloatingButton;
+				PRODUCT_NAME = FHXFloatingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E59E6B92654F13F4CE4ED1E66BFD4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8ECAD77BCCACFF64C79C090418CBA8E /* FHXFloatingButton.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FHXFloatingButton/FHXFloatingButton-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FHXFloatingButton/FHXFloatingButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXFloatingButton/FHXFloatingButton.modulemap";
+				PRODUCT_MODULE_NAME = FHXFloatingButton;
+				PRODUCT_NAME = FHXFloatingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4501F15C863E377E0190F696CBF450B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B15FE6A7A6EEF7AACBFF6A2E4D31082 /* Pods-FHXFloatingButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXFloatingButton_Tests/Pods-FHXFloatingButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXFloatingButton_Tests/Pods-FHXFloatingButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65C0B801631ABFF3CA8251D40CFC7577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D931DB30AE3579A6B35EFC05438C764F /* Pods-FHXFloatingButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXFloatingButton_Example/Pods-FHXFloatingButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXFloatingButton_Example/Pods-FHXFloatingButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		96A1875F36912CE95053248675FE8DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3497267B19C29A4D47488C026521B5C /* Pods-FHXFloatingButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXFloatingButton_Tests/Pods-FHXFloatingButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXFloatingButton_Tests/Pods-FHXFloatingButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCCE54ACFAB05D970DF4DC7C20AF9BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7457FF36CD56A3991BA6138363284E /* Pods-FHXFloatingButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXFloatingButton_Example/Pods-FHXFloatingButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXFloatingButton_Example/Pods-FHXFloatingButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEC3A6ABE5B83ADAA6B90CB9B5F2516 /* Build configuration list for PBXNativeTarget "Pods-FHXFloatingButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCE54ACFAB05D970DF4DC7C20AF9BD3 /* Debug */,
+				65C0B801631ABFF3CA8251D40CFC7577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8B0D16B3ABF56251BE977106113535 /* Build configuration list for PBXNativeTarget "Pods-FHXFloatingButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A1875F36912CE95053248675FE8DEA /* Debug */,
+				4501F15C863E377E0190F696CBF450B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6C93F586C3653917CDDF57D3BCFAFB /* Build configuration list for PBXNativeTarget "FHXFloatingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E59E6B92654F13F4CE4ED1E66BFD4F5 /* Debug */,
+				106C04BB3298EBB9177A7B5F4F2715EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

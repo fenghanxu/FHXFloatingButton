@@ -1,0 +1,16 @@
+PODS:
+  - FHXFloatingButton (0.1.0)
+
+DEPENDENCIES:
+  - FHXFloatingButton (from `../`)
+
+EXTERNAL SOURCES:
+  FHXFloatingButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FHXFloatingButton: 946d1b0a8226631f83ff344b111a3b6e59993313
+
+PODFILE CHECKSUM: b3949925e55616f9781756e17ac465963f28dc33
+
+COCOAPODS: 1.16.2

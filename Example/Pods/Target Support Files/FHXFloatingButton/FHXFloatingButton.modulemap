@@ -1,0 +1,6 @@
+framework module FHXFloatingButton {
+  umbrella header "FHXFloatingButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
