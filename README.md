@@ -2,13 +2,13 @@
 
 ## ✨ Features
 - 功能 该按键提供多个外部属性进行设置
-1.点击按键回调
-2.自定义图片
-3.设置按键大小
-4.边界限制
-5.滑动ScrollerView (TableView, ColoectionView) 隐藏按钮动画时间
-6.拖拽吸边动画时间（透传给按钮）
-7.滚动时自动隐藏
+    1.点击按键回调
+    2.自定义图片
+    3.设置按键大小
+    4.边界限制
+    5.滑动ScrollerView (TableView, ColoectionView) 隐藏按钮动画时间
+    6.拖拽吸边动画时间（透传给按钮）
+    7.滚动时自动隐藏
 
 ## 📸 Preview
 
