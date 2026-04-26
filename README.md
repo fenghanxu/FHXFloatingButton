@@ -1,11 +1,16 @@
 # FHXFloatingButton(浮动登录按键)
 
 ## ✨ Features
-- 功能 登录浮动按键
+- 功能 该按键提供多个外部属性进行设置
+1.点击按键回调
+2.自定义图片
+3.设置按键大小
+4.边界限制
+5.滑动ScrollerView (TableView, ColoectionView) 隐藏按钮动画时间
+6.拖拽吸边动画时间（透传给按钮）
+7.滚动时自动隐藏
 
 ## 📸 Preview
-
-![描述](images/1.gif)
 
 <p align="center">
   <img src="images/1.gif" width="300">
@@ -15,7 +20,7 @@
 
 登录浮动按键,app未登录状态下能够显示在控制器的一侧,点击登录按键跳转登录页面,滑动屏幕登录按键动画方式隐藏
 
-## 📦 Installation 安装方法
+## 📦 Installation 
 
 
 
@@ -23,7 +28,7 @@
 pod 'FHXFloatingButton', '~> 0.1.0'
 ```
 
-## 使用
+## Use
 
 ```objc
     FHXFloatingManager *manager = [FHXFloatingManager shared];
@@ -47,7 +52,7 @@ pod 'FHXFloatingButton', '~> 0.1.0'
     [manager show];
 ```
 
-## Demol里面的测试代码
+## Demol
 
 ```objc
 #import "ViewController.h"
