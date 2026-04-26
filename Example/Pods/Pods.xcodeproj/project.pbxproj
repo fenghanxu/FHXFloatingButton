@@ -44,19 +44,19 @@
 /* Begin PBXFileReference section */
 		01F1B47D2312647978964B15FB54EA8C /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Header.h; path = MoveLoginBtn/Header.h; sourceTree = "<group>"; };
 		05FA4CABE7E5934AF834CD60AB2BBFE5 /* Pods-FHXFloatingButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0769327140340970EEBCA381D1CCBA95 /* Pods-FHXFloatingButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FHXFloatingButton_Tests"; path = Pods_FHXFloatingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0769327140340970EEBCA381D1CCBA95 /* Pods_FHXFloatingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FHXFloatingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B2EFA15275F51007A453D0442B902B /* Pods-FHXFloatingButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Example-Info.plist"; sourceTree = "<group>"; };
 		1B4712EE0147372A3C0E08D51E04B3EB /* FHXFloatingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FHXFloatingButton.modulemap; sourceTree = "<group>"; };
-		1EBC9C3EA7E774514F6DFDB2595A6161 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1EBC9C3EA7E774514F6DFDB2595A6161 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2391260D3D28A2C95C873B65F58E145A /* FHXFloatingButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FHXFloatingButton-Info.plist"; sourceTree = "<group>"; };
-		2D042C35885316A66805CD577C531F78 /* Pods-FHXFloatingButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FHXFloatingButton_Example"; path = Pods_FHXFloatingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D042C35885316A66805CD577C531F78 /* Pods_FHXFloatingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FHXFloatingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D605C133F5414131D5E03419C997683 /* Pods-FHXFloatingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXFloatingButton_Example.modulemap"; sourceTree = "<group>"; };
 		2E7457FF36CD56A3991BA6138363284E /* Pods-FHXFloatingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXFloatingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		309FB87C9AA2FC70A17138B849740AEA /* Pods-FHXFloatingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXFloatingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4A05B901F49337B5435A30F4876228AA /* Pods-FHXFloatingButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Tests-Info.plist"; sourceTree = "<group>"; };
 		4B3D98D036BC83CC78724E108913A59A /* Pods-FHXFloatingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXFloatingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4E3BF47FFE8EFB6A9AB8254675D946D0 /* FHXFloatingButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHXFloatingButton.m; path = MoveLoginBtn/FHXFloatingButton.m; sourceTree = "<group>"; };
-		50F4526DF0323EEC8B56B6F93DCCB6D8 /* FHXFloatingButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FHXFloatingButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50F4526DF0323EEC8B56B6F93DCCB6D8 /* FHXFloatingButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FHXFloatingButton.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		515E9E831AA949B9DCB5E8E40D31AAB3 /* Pods-FHXFloatingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXFloatingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5171335D57B69E3E9D6AA5FD69FB6162 /* Pods-FHXFloatingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXFloatingButton_Example-dummy.m"; sourceTree = "<group>"; };
 		61A6E9FCFADE840BEE8EFF6B3EB458AB /* Pods-FHXFloatingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXFloatingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -64,13 +64,13 @@
 		8819A90A875044198CDF1DD77816C028 /* FHXFloatingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHXFloatingManager.m; path = MoveLoginBtn/FHXFloatingManager.m; sourceTree = "<group>"; };
 		94DC314F96D9D7827F00081461C189E0 /* Pods-FHXFloatingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXFloatingButton_Tests.modulemap"; sourceTree = "<group>"; };
 		9B15FE6A7A6EEF7AACBFF6A2E4D31082 /* Pods-FHXFloatingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXFloatingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA15D2AD3C3E1638B93BD324BF2E15E /* Pods-FHXFloatingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXFloatingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A3B162A001F8AAF493BD21A07963E92B /* FHXFloatingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXFloatingButton.h; path = MoveLoginBtn/FHXFloatingButton.h; sourceTree = "<group>"; };
 		A493D8D6684B2AEE9FA2FE7E0E790181 /* FHXFloatingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXFloatingManager.h; path = MoveLoginBtn/FHXFloatingManager.h; sourceTree = "<group>"; };
-		B1652A07E819D8C6FFCA7F77A729231D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B1652A07E819D8C6FFCA7F77A729231D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B710A41A4929AF46ADE5047FA1289C44 /* Pods-FHXFloatingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXFloatingButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXFloatingButton; path = FHXFloatingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FHXFloatingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A373CDFCBEFB1FE1AF0D66DD6DE0FB /* Pods-FHXFloatingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXFloatingButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		CCFAAE386FA79B232593DB4ECEA3C8FB /* FHXFloatingButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXFloatingButton.release.xcconfig; sourceTree = "<group>"; };
 		D06B3452708DE4C24E9E43F4F1CE2C2B /* FHXFloatingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXFloatingButton-umbrella.h"; sourceTree = "<group>"; };
@@ -197,9 +197,9 @@
 		78B9925CC38451DF9B43770659BBB23D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton */,
-				2D042C35885316A66805CD577C531F78 /* Pods-FHXFloatingButton_Example */,
-				0769327140340970EEBCA381D1CCBA95 /* Pods-FHXFloatingButton_Tests */,
+				B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton.framework */,
+				2D042C35885316A66805CD577C531F78 /* Pods_FHXFloatingButton_Example.framework */,
+				0769327140340970EEBCA381D1CCBA95 /* Pods_FHXFloatingButton_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			);
 			name = FHXFloatingButton;
 			productName = FHXFloatingButton;
-			productReference = B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton */;
+			productReference = B85025E0D845BE846453604FAF1DCFA7 /* FHXFloatingButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5904A1C89D0C9CF787DA4D98BA27D434 /* Pods-FHXFloatingButton_Example */ = {
@@ -306,7 +306,7 @@
 			);
 			name = "Pods-FHXFloatingButton_Example";
 			productName = Pods_FHXFloatingButton_Example;
-			productReference = 2D042C35885316A66805CD577C531F78 /* Pods-FHXFloatingButton_Example */;
+			productReference = 2D042C35885316A66805CD577C531F78 /* Pods_FHXFloatingButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A0BB198405D2AB7851213EC2200CA7C9 /* Pods-FHXFloatingButton_Tests */ = {
@@ -325,7 +325,7 @@
 			);
 			name = "Pods-FHXFloatingButton_Tests";
 			productName = Pods_FHXFloatingButton_Tests;
-			productReference = 0769327140340970EEBCA381D1CCBA95 /* Pods-FHXFloatingButton_Tests */;
+			productReference = 0769327140340970EEBCA381D1CCBA95 /* Pods_FHXFloatingButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,8 +346,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 78B9925CC38451DF9B43770659BBB23D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -626,8 +624,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
